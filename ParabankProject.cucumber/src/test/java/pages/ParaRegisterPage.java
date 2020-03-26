@@ -33,7 +33,7 @@ public class ParaRegisterPage {
 	   {
 		   ExcelClass ex=new ExcelClass();
 		   
-		   driver.findElement(register).click();
+		  driver.findElement(register).click();
 		  driver.findElement(firstname).sendKeys(ex.readXL(r,0));
 		  driver.findElement(lastname).sendKeys(ex.readXL(r,1));
 		  driver.findElement(address).sendKeys(ex.readXL(r,2));

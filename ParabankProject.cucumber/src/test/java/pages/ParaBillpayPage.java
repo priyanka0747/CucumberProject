@@ -30,8 +30,8 @@ public class ParaBillpayPage {
 	
 	public void customerLogin()
 	{
-		driver.findElement(username).sendKeys("tri");
-		driver.findElement(password).sendKeys("tri123");
+		driver.findElement(username).sendKeys("asish123_a@aa1");
+		driver.findElement(password).sendKeys("123qwe");
 		driver.findElement(login).click();
 	}
 	
