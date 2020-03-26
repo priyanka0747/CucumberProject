@@ -45,21 +45,21 @@ formatter.match({
   "location": "ParaRegisterChrome.the_user_launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 11736782600,
+  "duration": 14512510100,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaRegisterChrome.the_user_open_the_Parabank_Registration_page()"
 });
 formatter.result({
-  "duration": 10002051100,
+  "duration": 12422313000,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaRegisterChrome.user_gives_the_details_and_submits_the_registration()"
 });
 formatter.result({
-  "duration": 41044761300,
+  "duration": 89622857700,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,21 +95,21 @@ formatter.match({
   "location": "ParaLoginChrome.the_user_launch_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 9637140900,
+  "duration": 10568337800,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaLoginChrome.the_user_open_the_Parabankpage()"
 });
 formatter.result({
-  "duration": 10788667600,
+  "duration": 8860819400,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaLoginChrome.enter_username_and_password_then_login()"
 });
 formatter.result({
-  "duration": 31671966000,
+  "duration": 42050116100,
   "status": "passed"
 });
 formatter.scenario({
@@ -155,35 +155,35 @@ formatter.match({
   "location": "ParaBillpayChrome.the_user_launch_the_chrome()"
 });
 formatter.result({
-  "duration": 9706631800,
+  "duration": 8090805700,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaBillpayChrome.the_user_open_the_Parabank_Login_Page()"
 });
 formatter.result({
-  "duration": 6169953900,
+  "duration": 11548996500,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaBillpayChrome.the_user_login_to_the_account()"
 });
 formatter.result({
-  "duration": 2082166100,
+  "duration": 8808449600,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaBillpayChrome.the_user_fills_the_details_of_the_bill_pay()"
 });
 formatter.result({
-  "duration": 2389867100,
+  "duration": 4750259500,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaBillpayChrome.submit_the_bill_pay()"
 });
 formatter.result({
-  "duration": 3263309700,
+  "duration": 3660218500,
   "status": "passed"
 });
 formatter.scenario({
@@ -224,28 +224,28 @@ formatter.match({
   "location": "ParaMrssagetocustomerChrome.the_user_launchs_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 9708625500,
+  "duration": 10442689700,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaMrssagetocustomerChrome.the_user_open_the_Parabank_HomePage()"
 });
 formatter.result({
-  "duration": 4896776900,
+  "duration": 10613211600,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaMrssagetocustomerChrome.the_user_opens_the_msg_and_fill_the_details()"
 });
 formatter.result({
-  "duration": 1794529900,
+  "duration": 4853068000,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaMrssagetocustomerChrome.send_the_message_to_customer_care()"
 });
 formatter.result({
-  "duration": 4454546900,
+  "duration": 5116871600,
   "status": "passed"
 });
 formatter.scenario({
@@ -286,28 +286,28 @@ formatter.match({
   "location": "ParaAdminChrome.the_user_launch_the_chromebrowser()"
 });
 formatter.result({
-  "duration": 9683801400,
+  "duration": 10318295800,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaAdminChrome.the_user_open_the_Parabank_Homepage()"
 });
 formatter.result({
-  "duration": 3889785000,
+  "duration": 12480273200,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaAdminChrome.the_user_select_the_Admin_Page()"
 });
 formatter.result({
-  "duration": 1126702400,
+  "duration": 1265553200,
   "status": "passed"
 });
 formatter.match({
   "location": "ParaAdminChrome.the_user_submits_the_Administration_Page()"
 });
 formatter.result({
-  "duration": 4151820400,
+  "duration": 4455454800,
   "status": "passed"
 });
 });
