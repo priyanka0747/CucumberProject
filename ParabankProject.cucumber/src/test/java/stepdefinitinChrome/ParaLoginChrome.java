@@ -30,7 +30,7 @@ public class ParaLoginChrome extends WrapperClass {
 	@Then("^enter username and password then login$")
 	public void enter_username_and_password_then_login() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		for(int i=1;i<=3;i++)
+		for(int i=1;i<=10;i++)
 		{
 	    lp.enterUsername(i);
 	    lp.enterPassword(i);

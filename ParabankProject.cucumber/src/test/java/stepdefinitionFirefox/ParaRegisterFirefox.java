@@ -28,7 +28,7 @@ ParaRegisterPage prp;
 	@Then("^user gives the details and submits the registration$")
 	public void user_gives_the_details_and_submits_the_registration() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		for(int i=1;i<=3;i++)
+		for(int i=1;i<=10;i++)
 		{
 	    prp.registrationOfCustomer(i);
 	    prp.submitRegistration();
