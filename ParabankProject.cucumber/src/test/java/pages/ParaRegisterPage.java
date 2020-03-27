@@ -9,6 +9,7 @@ public class ParaRegisterPage {
 	
 	 WebDriver driver;
 	   
+	//Every element present in the Register page is identified 
 	   By register=By.xpath("//*[@id='loginPanel']/p[2]/a");
 	   By firstname=By.id("customer.firstName");
 	   By lastname=By.id("customer.lastName");
@@ -24,11 +25,15 @@ public class ParaRegisterPage {
 	   By registerButton=By.xpath("//*[@id='customerForm']/table/tbody/tr[13]/td[2]/input");
 	   By logout=By.partialLinkText("Log Out");
 	   
+	   
+	 //Constructor to initialize the Browser  
 	 public ParaRegisterPage(WebDriver driver)
 	 {
 		 this.driver=driver;
 	 }
 	   
+	 
+	 //Creating methods for each element present in Register page 
 	   public void registrationOfCustomer(int r)
 	   {
 		   ExcelClass ex=new ExcelClass();
@@ -47,6 +52,7 @@ public class ParaRegisterPage {
 		  driver.findElement(confirmpassword).sendKeys(ex.readXL(r,10));
 	   }
 	   
+	   
 	   public void submitRegistration() throws InterruptedException
 	   {
 		   driver.findElement(registerButton).click();
@@ -56,6 +62,7 @@ public class ParaRegisterPage {
 		   
 	   }
 	   
+	   //Method to close Browser
 	   public void closeBrowser()
 	   {
 		 driver.close();

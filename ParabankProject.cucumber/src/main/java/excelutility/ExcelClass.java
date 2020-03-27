@@ -13,7 +13,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelClass {
-	
+
+	//Reading data from Excel
 	String s;
 	public String readXL(int rowno, int cellno){
 		File f=new File("src\\test\\resources\\TestData\\Parabank.xlsx");
