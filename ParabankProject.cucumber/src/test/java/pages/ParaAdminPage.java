@@ -17,7 +17,7 @@ public class ParaAdminPage {
 	this.driver=driver;
 	}
 
-	 //Creating methods for each element present in Register page 
+	 //Creating methods for each element present in Admin page 
 	public void selectAdminpage()
 	{
 		driver.findElement(adminfield).click();
